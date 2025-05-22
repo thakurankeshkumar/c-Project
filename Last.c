@@ -38,6 +38,7 @@ int main()
     scanf("%d", &n);
 
     struct Account *customers = (struct Account *)malloc(n * sizeof(struct Account));
+    printf("Welcome to SOFTECH DEVELOPEMENT....");
 
     // Input customer details
     for (int i = 0; i < n; i++)
@@ -182,7 +183,7 @@ void menu(struct Account *arr, int n)
         }
 
         printf("Do you want to perform another operation? (Y/N): ");
-        getchar(); // flush newline
+        getchar();
         scanf("%c", &again);
 
     } while (again == 'Y' || again == 'y');

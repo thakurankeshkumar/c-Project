@@ -38,7 +38,8 @@ int main()
     scanf("%d", &n);
 
     struct Account *customers = (struct Account *)malloc(n * sizeof(struct Account));
-    printf("Welcome to SOFTECH DEVELOPEMENT....");
+    printf("Welcome to SOFTECH DEVELOPEMENT....\n");
+    printf("Today i am going to start my journy\n");
 
     // Input customer details
     for (int i = 0; i < n; i++)
